@@ -1,12 +1,11 @@
-import './App.css'
+import Hello from "./Hello";
 
 function App() {
-
   return (
     <>
-      <h1>Hello World </h1>
-      <br></br>
-      <h2>My Self Chandan Using Vite</h2>
+      <h1>Hello I am App.jsx File</h1>
+      <p>I am Paragraph Tag of App.jsx file</p>
+      <Hello />
     </>
   )
 }
